@@ -1,51 +1,22 @@
-# Build outputs
+node_modules/
+**/node_modules/
 dist/
 build/
 coverage/
-release/
-*.apk
-*.aab
-*.exe
-*.msi
-*.app
-*.ipa
-
-# Tauri / Rust
-src-tauri/target/
-src-tauri/gen/
-src-tauri/.cargo/
-src-tauri/tauri.conf.json.user
-
-# Logs
 *.log
-logs/
-salida*.log
-error-*.log
-android-*.log
-
-# Local DB
 *.db
 *.db-shm
 *.db-wal
-skillbridge.db
-backend/skillbridge.db
-
-# Node
-node_modules/
-**/node_modules/
-
-# Mobile build folders
-mobile/*.apk
-mobile/*.aab
-mobile/*.ipa
-mobile/*.app
-
-# Installer artifacts
-installer/stage/
-installer/node-portable/
-installer/**/*.exe
-installer/**/*.msi
-
-# Toolchain / SDKs
-tools/android-sdk/
-tools/jdk-*/
+*.apk
+*.aab
+*.ipa
+*.exe
+*.msi
+src-tauri/target/
+src-tauri/gen/
+installer/
+tools/
+mobile/
+android-build.log
+android-release.log
+*.log
